@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+.center-content{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Search */
+.search-box:hover .search-txt {
+    width: 250px;
+    padding: 0 20px;
+  }
+  
+  .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0px;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 12px;
+    width: 0;
+  }
+  
+  .search-btn {
+    color: #1abc9c;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+/* slide */
+.slider{
+    max-width: 1100px;
+    display: flex;
+  }
+  .slider .card{
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+  }
+  .slider .card .img{
+    height: 250px;
+    width: 100%;
+  }
+  .slider .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  } 
+  .card .content .btn button:hover{
+    transform: scale(0.9);
+  }
+
+  @media (min-width: 320px) and (max-width: 480px){
+    .center{
+        overflow: hidden!important;
+    }
+    .center .center-content{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 10px;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    .head .head-menu,
+    .head .head-contact{
+        display: none;
+    }
+    /* item1-trangchu */
+    .body .trangchu-text{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .body .trangchu-text2{
+        margin: 10px;
+        font-size: 17px;
+    }
+    /* <!-- item2-iwin88 --> */
+    .body .iwin{
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    /* item3-download */
+    .body .item3-text{
+        font-size: 30px;
+    }
+    .body .download{
+        display: flex;
+        flex-direction: column;
+    }
+    .body .video-play{
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* item4-Danh sách */
+    .body .body-item5{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .body .danhsach{
+        width: 100%;
+    }
+    /* item6-cachtai */
+    .body .body-item6{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .body .cachtai{
+        width: 100%;
+    }
+    /* slider */
+    .slider .card .img{
+        height: 80px;
+        width: 100%;
+    }
+    .slider .card .content{
+        padding: 0;
+    }
+    .slider .card .content-text{
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    /* play */
+    .body .play-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .body .play-item2{
+        display: flex;
+        flex-direction: column;
+    }
+    .body .box-card{
+        width: 100%;
+    }
+    /* footer */
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .footer .footer-item{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+  @media (min-width: 481px) and (max-width: 768px){
+    .center{
+        overflow: hidden!important;
+    }
+    .center .center-content{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 10px;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    .head .head-menu,
+    .head .head-contact{
+        display: none;
+    }
+    /* item1-trangchu */
+    .body .trangchu-text{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .body .trangchu-text2{
+        margin: 10px;
+        font-size: 17px;
+    }
+    /* <!-- item2-iwin88 --> */
+    .body .iwin{
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    /* item3-download */
+    .body .item3-text{
+        font-size: 30px;
+    }
+    .body .download{
+        display: flex;
+        flex-direction: column;
+    }
+    /* video */
+    .body .video-play{
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* item4-Danh sách */
+    .body .body-item5{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .body .danhsach{
+        width: 100%;
+    }
+    /* item6-cachtai */
+    .body .body-item6{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .body .cachtai{
+        width: 100%;
+    }
+    /* slider */
+    .slider .card .img{
+        height: 150px;
+        width: 100%;
+    }
+    .slider .card .content{
+        padding: 0;
+    }
+    .slider .card .content-text{
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    /* play */
+
+    .body .play-button{
+        padding: 8px;
+    }
+    .body .play-content{
+        margin: 10px;
+    }
+    .body .play-text{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    /* footer */
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .footer .footer-item{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1025px){
+    .center{
+        overflow: hidden!important;
+    }
+    .center .center-content{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 10px;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    .head .head-menu,
+    .head .head-contact{
+        display: none;
+    }
+
+    /* item1-trangchu */
+    .body .trangchu-text{
+        margin: 10px;
+        font-size: 25px;
+    }
+    .body .trangchu-text2{
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    /* <!-- item2-iwin88 --> */
+    .body .iwin{
+        width: 100%;
+        padding: 20px;
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* video */
+    .body .video-play{
+        width: 70%;
+        padding: 10px;
+    }
+
+    /* <!-- itme4-Danh sách --> */
+    .body .danhsach{
+        width: 100%;
+        padding: 20px;
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* <!-- itme6-cachtai --> */
+    .body .cachtai{
+        width: 100%;
+        padding: 20px;
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* play */
+
+    .body .play-button{
+        padding: 13px;
+    }
+    .body .play-content{
+        margin: 10px;
+    }
+    .body .play-text{
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    
+  }
+  
